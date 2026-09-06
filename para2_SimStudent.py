@@ -5,7 +5,7 @@ class Student:
         self.name = name
         self.gladness = 50
         self.progress = 0
-        self.money = 100
+        self.money = 50
         self.alive = True
 
     def to_study(self):
@@ -69,11 +69,11 @@ class Student:
     def live(self, day):
         day = f"Day {day} of {self.name} life"
         print(f"{day:=^50}")
-        if self.money < 30:
+        if self.money < 10:
             self.to_work()
         elif self.progress < 1:
             self.to_study()
-        elif self.gladness < 20:
+        elif self.gladness < 10:
             self.to_sleep()
         else:
             live_cude = random.randint(1, 4)
