@@ -7,7 +7,6 @@ def divider(a, b):
 
     if b > 100:
         raise IndexError
-
     return a / b
 
 
