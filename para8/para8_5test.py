@@ -14,5 +14,6 @@ class My_Test(unittest.TestCase):
     def test_wrong_type(self):
         self.assertEqual(adder("5", 10), 15)
 
+
 if __name__ == "__main__":
     unittest.main()
