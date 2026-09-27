@@ -29,7 +29,7 @@ class Student:
         self.gladness -= 5
         self.progress -= 0.05
 
-    def is_alive(self):
+    def     is_alive(self):
         if self.progress < -0.5:
             print("Cast out...")
             self.alive = False
@@ -72,8 +72,12 @@ class Student:
 
 
 student1 = Student(name="Gerundy")
+student2 = Student(name="Alexander")
 
-for day in range(365):
-    if student1.alive == False:
-        break
-    student1.live(day)
+
+
+
+
+
+
+
