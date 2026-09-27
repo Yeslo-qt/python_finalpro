@@ -8,8 +8,12 @@ def checker(func, *args, **kwargs):
         else:
             print(f"No problems. Result - {result}")
     return checker
+
+@checker
 def calculate(expr):
     return eval(expr)
 
-calc1 = checker(calculate)
-calc1("2+2")
+calculate("2+2")
+
+# calc1 = checker(calculate)
+# calc1("2+2")
