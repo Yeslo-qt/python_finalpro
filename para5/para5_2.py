@@ -1,5 +1,6 @@
 #test_list = ["x", "10"]
-import para2_SimStudent
+from para1 import para2_SimStudent
+
 dima = para2_SimStudent.Student
 
 for metod in dir(dima):
