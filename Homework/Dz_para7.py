@@ -27,4 +27,4 @@ except ZeroDivisionError:
     print("Error: Division by zero!")
 
 except SyntaxError:
-    print("Error: Wrong word!")
+    print("Error: Wrong expression!")
