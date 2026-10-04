@@ -13,3 +13,5 @@ for parse_elem in response_parse:
 
 bitcoin_rate = res_parse_list[6]
 print(bitcoin_rate)
+
+
